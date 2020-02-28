@@ -8,6 +8,7 @@ export default class List extends Component {
                     this.props.characters.map(char =>
                     <div className="char-box">
                         {char.name}
+
                         <img src = {char.image} alt=""/>
                     </div>
                     
